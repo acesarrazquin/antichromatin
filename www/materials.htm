@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+
+<br>
+<h5>Dissociation-enhanced lanthanide fluorescence immunoassay (DELFIA)</h5>
+
+<p>Biotinylated peptides (New England Peptide, Inc.) at &gt; 90% purity were dissolved in UltraPureTM DNase/RNase-Free Distilled Water (Gibco, CatNr 10977035) to obtain 10 mM stocks. 20 Âµl of a 1 ÂµM peptide solution were immobilized onto DELFIAÂ® Streptavidin-coated white 384-well plates (Perkin Elmer, CatNr CC11-H10) in quadruplicates. After 1 hour incubation at room temperature plates were washed three times with 100 Î¼l wash buffer (50 mM Tris pH 7.5, 150 mM NaCl, 0.05% Tween20), and were incubated with 50 Î¼l antibodies at indicated dilutions in 1X FI buffer (50 mM Tris pH 7.5, 150 mM NaCl, 0.05% Tween40, 25 mM DTPA, 0.2% BSA, 0.05% bovine Î³-globulins) and 200 ng/ml Eu-N1-conjugated anti-species antibodies (DELFIAÂ® Eu-N1 Rabbit anti-Mouse IgG antibody, Perkin Elmer, CatNr AD0207; DELFIAÂ® Eu-N1 Goat anti-Rabbit IgG antibody, Perkin Elmer, CatNr AD0106) for 1 hour at room temperature. After removal of unbound antibodies by washing the plates three times with 100 Î¼l wash buffer, plates were incubated with 50 Î¼l DELFIAÂ® Enhancement Solution (PerkinElmer, CatNr 4001-0010) for 45 minutes at room temperature. Europium emission at 615 nm (Excitation 340 nm) was measured using an EnVision 2104 Multilabel Plate Reader (Perkin Elmer).</p>
+
+<br>
+<h5>Data normalization and evaluation</h5>
+
+<p>Fluorescence intensities from each DELFIA assay were normalized to the maximum median value of all quadruplicates.
+In order to establish a MFI threshold to distinguish real signals from noise, we applied k-mean clustering with 2 different clusters (&quot;signal&quot;, &quot;noise&quot;) to the median values of each independent assay. Thresholds were fixed as the maximum value of the &quot;noise&quot; clusters, and used to determine true positives TP (on-target binding), false negatives FN (on-target non-binding), false positives FP (off-target binding) and true negatives TN (off-target non-binding).
+Antibodies were classified into 9 categories based on two different criteria: positive predictive value PPV=TP/(TP+FP), used as a proxy for specificity, and sensitivity S=TP/(TP+FN). PPV and S values were considered to be &quot;high&quot; if &gt; 0.75 and &quot;low&quot; if &lt; 0.5; otherwise &quot;moderate&quot;. PPV values were finally adjusted to account for the difference in magnitude between the median of all true and the median of all false positive signals. Highly specific antibodies were assigned to categories 1-3 (from more to less sensitive), antibodies of average specificity to categories 4-6, and unspecific antibodies to categories 7-9.</p> 
+
+</body>
+</html>
